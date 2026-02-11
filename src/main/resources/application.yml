@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/your_db
+    username: your_user
+    password: your_password
+  batch:
+    jdbc:
+      initialize-schema: always
+
+app:
+  domain:
+    categories:
+      1: panini
+      2: piadine
+      3: toast
+      6: piatti unici
+      8: panini special
+    menu-items: {}
